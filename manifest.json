@@ -1,0 +1,13 @@
+{
+	"name": "wordle-winner",
+	"version": "1.0",
+	"description": "Worlde Winning Extension",
+	"permissions": ["https://www.powerlanguage.co.uk/wordle/"],
+	"content_scripts": [
+		{
+			"matches": ["https://www.powerlanguage.co.uk/wordle/"],
+			"js": ["content.js"]
+		}
+	],
+	"manifest_version": 2
+}
